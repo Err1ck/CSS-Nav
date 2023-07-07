@@ -1,0 +1,42 @@
+<!-- 
+Starting from the navbar you created in the HTML exercise called 'Navbar',
+add the CSS properties. The Search button should have a hover effect 
+(background green and white text).
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Navbar</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <nav class="navbar">
+      <ul class="navbar__links">
+          <li>
+            <a class="navbar__links__1" href="#">Navbar</a>
+          </li>
+          <li>
+            <a class="navbar__links__2" href="#">Home</a>
+          </li>
+          <li>
+            <a class="navbar__links__3" href="#">Link</a>
+          </li>
+          <li>
+            <select>
+              <option>
+                <a href="#">Dropdown</a>
+              </option>
+            </select>
+          </li>
+          <li>
+            <a class="navbar__links__4"> Disabled </a>
+          </li> 
+      </ul>
+      <form class="navbar__search">
+          <input class="navbar__search__srch" type="search" placeholder="Search" />
+          <button type="submit" class="navbar__search__button">Search</button>
+      </form>
+  </nav>
+  </body>
